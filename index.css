@@ -15,14 +15,18 @@ input{
 tr , td {
     border: 2px solid black;
 }
-.flex-container{
-    display: flex;
-    background-color: aquamarine;
+.main-div{
+    display:flex
 }
-.flex-container> div{
-    background-color: aqua;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-}
+.main-dev2{
+    display:flex;
 
+}
+.navigation-list{
+    display: flex;
+    margin: 2px;
+}
+li{
+    list-style-type: none;
+    
+}
